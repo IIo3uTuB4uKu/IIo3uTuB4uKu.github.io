@@ -1,0 +1,60 @@
+body {
+    background: #272727;
+    color: #909090;
+    text-align: -webkit-center;
+    font-family: monospace;
+}
+
+.field {
+    border: solid;
+    width: 25%;
+    height: 35px;
+    align-content: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 7px 1px black;
+    font-size: 20px;
+}
+
+.progress {
+    position: relative;
+    min-height: 150px;
+    gap: 20px;
+    display: grid;
+    grid-auto-rows: max-content;
+    justify-items: center;
+    font-size: 2rem;
+}
+
+.svg-icon {
+    width: 60px;
+    height: 60px;
+    display: block;
+    fill: currentColor;
+}
+
+.wrapper {
+    gap: 20px;
+    display: grid;
+}
+.wrapper .text,
+.wrapper .progress {
+    grid-row: 1;
+}
+
+.blocks {
+    display: inline-flex;
+}
+
+.codes {
+    margin: 0px;
+    color: #272727;
+    font-family: monospace;
+    letter-spacing: 4px;
+}
+
+a {
+    color:#909090;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 10px;
+}
