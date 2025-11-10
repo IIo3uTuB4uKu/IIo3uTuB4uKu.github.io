@@ -1,44 +1,73 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="styles.css">
-        <title>Info about me</title>
-        
-    </head>
-    <body>
-        <div class="Name info">
-            <p class="field">Максим</p>
-            <p class="field">IIo3uTuB4uK</p>
-        </div>
-        
-        <h1>Мои навыки:</h1>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="anim.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Info about me</title>
 
-        <div class="blocks">
-            
-            <div class="block">
-                <div class="progress" data-progress="86" data-color="#0cf59a">
-                    <p class="codes" style="-webkit-text-stroke: 2px #0cf59a;">Python</p>
-                </div>
+</head>
+<body>
+    <div class="BackGround">
+
+    </div>
+
+    <nav id="navbar">
+        <a href="#Name">Home</a>
+        <a href="#Skills">Skill-set</a>
+        <a href="#Links">Contact</a>
+    </nav>
+
+    <main>
+        <div id="Name" class="MainBlocks">
+            <div class="info">
+                <h1>Hello! My name is </h1>
+                <h1 style="color: #ff4859">Maxim</h1>
+                <p id="desc">I'm in 11th grade. I'm preparing for exams. And I'm learning programming languages.</p>
             </div>
-            <div class="block">
-                <div class="progress" data-progress="42" data-color="#ff652f">
-                    <p class="codes" style="-webkit-text-stroke: 2px #ff652f;">C++</p>
-                </div>
-            </div>
-            <div class="block">
-                <div class="progress" data-progress="15" data-color="#ffe400">
-                    <p class="codes" style="-webkit-text-stroke: 2px #ffe400;">Web</p>
-                </div>
-            </div>
+            <canvas id="1" class="Canvas"></canvas>
         </div>
 
-        <h1>Social:</h1>
-        <div class="Social">
-            <a href="https://github.com/IIo3uTuB4uKu" target="_blank">Github</a>
-            <a href="https://discordapp.com/users/678813948128264212" target="_blank">Discord</a>
-            <a href="https://t.me/@Iio3utu" target="_blank">Telegram</a>
+        <div id="Skills" class="MainBlocks">
+            <div class="info">
+                <h1 style="color: #ff4859">Skill-set</h1>
+
+                <h3>CodeWars</h3>
+
+                <div class="Blocks">
+                    <div class="block">
+                        <div class="progress" data-progress="62.5" data-color="#1f87e7">
+                            <p class="codes">Python</p>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <div class="progress" data-progress="62.5" data-color="#1f87e7">
+                            <p class="codes">C#</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <canvas id="2" class="Canvas"></canvas>
         </div>
 
-    </body>
+
+        <div id="Links" class="MainBlocks">
+            <div class="info">
+                <h1 style="color: #ff4859">Social</h1>
+                <div class="Social">
+                    <a href="https://github.com/IIo3uTuB4uKu" target="_blank"><img src="github-mark-white.svg" /></a>
+
+                    <a href="https://discordapp.com/users/678813948128264212" target="_blank"><img src="discord-v2.svg" /></a>
+                    <a href="https://t.me/@Iio3utu" target="_blank"><img src="tg.svg" /></a>
+                </div>
+            </div>
+            <canvas id="3" class="Canvas"></canvas>
+        </div>
+
+    </main>
+
     <script src="script.js"></script>
+    <script src="anim.js"></script>
+</body>
 </html>
