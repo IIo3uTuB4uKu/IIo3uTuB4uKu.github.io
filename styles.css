@@ -87,8 +87,8 @@ h3 {
 }
 
 img {
-    width: 200px;
-    height: 200px;
+    width: 10vh;
+    height: 10vh;
 }
 
 .Social {
@@ -96,4 +96,10 @@ img {
     margin-left: 50px;
     display: flex;
     flex-wrap: wrap;
+}
+
+
+.Round {
+    width: 15vh;
+    height: 15vh;
 }

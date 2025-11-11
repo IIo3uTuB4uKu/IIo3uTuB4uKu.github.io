@@ -72,6 +72,7 @@ const easeInOutSine = x => -(Math.cos(Math.PI * x) - 1) / 2;
 // Circle bar logic
 const createCircleBar = (width, height, progress, color) => {
     const canvas = document.createElement('canvas');
+    canvas.classList.add("Round")
     const context = canvas.getContext('2d');
     [canvas.width, canvas.height] = [width, height];
 
